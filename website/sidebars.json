@@ -1,0 +1,7 @@
+{
+  "docs": {
+    "HTML": ["intro_html"],
+    "CSS": ["intro_css"],
+    "JavaScript": ["intro_js", "strings"]
+  }
+}
