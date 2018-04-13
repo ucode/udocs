@@ -11,5 +11,6 @@
 <url> <loc>https://www.udocs.com/docs/intro_css.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://www.udocs.com/docs/intro_css.html" /> </url>
 <url> <loc>https://www.udocs.com/docs/intro_html.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://www.udocs.com/docs/intro_html.html" /> </url>
 <url> <loc>https://www.udocs.com/docs/intro_js.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://www.udocs.com/docs/intro_js.html" /> </url>
+<url> <loc>https://www.udocs.com/docs/order_of_operations.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://www.udocs.com/docs/order_of_operations.html" /> </url>
 <url> <loc>https://www.udocs.com/docs/strings.html</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://www.udocs.com/docs/strings.html" /> </url>
 </urlset>
