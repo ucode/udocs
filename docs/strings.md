@@ -10,7 +10,7 @@ A JavaScript string is a sequence of characters. Strings can be created by writi
 "a string"
 ```
 
-## Escape Sequences
+### Escape Sequences
 JavaScript can treat certain characters special by writing a `\` before. This is called an *escape sequence*. The following are all the valid escape sequences for JavaScript strings:
 | Code | Character  |
 |------|------------|

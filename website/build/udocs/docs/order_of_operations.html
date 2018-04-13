@@ -6,19 +6,30 @@
           };
         </script></nav></div><div class="container mainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><h1>JavaScript Order of Operations</h1></header><article><div><span><p>JavaScript generally follows the same order of operations as arithmetic. JavaScript has some additional arithmetic and algebraic operations of its own.</p>
 <h2><a class="anchor" aria-hidden="true" name="arithmetic-algebraic-order-of-operations"></a><a href="#arithmetic-algebraic-order-of-operations" aria-hidden="true" class="hash-link" ><svg aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Arithmetic/Algebraic Order of Operations</h2>
-<p>From highest to lowest precedence</p>
+<p>Higher level is higher precedence</p>
 <table>
 <thead>
-<tr><th>Operator</th><th>Associativity</th><th>Examples</th></tr>
+<tr><th>Level</th><th>Operator</th><th>Syntax</th><th>Associativity</th><th>Example</th></tr>
 </thead>
 <tbody>
-<tr><td>Grouping <code>(</code>expression<code>)</code></td><td>left</td><td><code>2 * (3 + 4)</code></td></tr>
-<tr><td>Logical not <code>!</code>value, bitwise not <code>~</code>value, unary plus <code>+</code>value, unary negation <code>-</code>value</td><td>left</td><td><code>!true</code>, <code>~3</code>, <code>+5</code>, <code>-7</code></td></tr>
-<tr><td>Exponentiation value<code>**</code>value</td><td>right</td><td><code>2 ** 3</code></td></tr>
-<tr><td>Multiplication value<code>*</code>value, division value<code>/</code>value, remainder value<code>%</code>value</td><td>left</td><td><code>3 * 4</code>, <code>12 / 6</code>, <code>8 % 3</code></td></tr>
-<tr><td>Addition value<code>+</code>value, subtraction value<code>-</code>value</td><td>left</td><td><code>2 + 3</code>, <code>'a' + 'b'</code>, <code>9 - 7</code></td></tr>
-<tr><td>Bitwise left shift value<code>&lt;&lt;</code>value, bitwise right shift value<code>&gt;&gt;</code>value, bitwise unsigned right shift value<code>&gt;&gt;&gt;</code>value</td><td>left</td><td><code>4 &lt;&lt; 1</code>, <code>4 &gt;&gt; 1</code>, <code>-3 &gt;&gt;&gt; 2</code></td></tr>
-<tr><td>Less than value<code>&lt;</code>value, less than or equal value<code>&lt;=</code>value, greater than value<code>&gt;</code>value, greater than or equal value<code>&gt;=</code>value</td><td>left</td><td><code>3 &lt; 4</code>, <code>5 &lt;= 4</code>, <code>6 &gt; 2</code>, <code>7 &gt;= 1</code></td></tr>
+<tr><td>20</td><td>Grouping</td><td><code>(</code> <em>expression</em> <code>)</code></td><td>left</td><td><code>2 * (3 + 4)</code></td></tr>
+<tr><td>16</td><td>Logical not</td><td><code>!</code> <em>value</em></td><td>left</td><td><code>!true</code></td></tr>
+<tr><td>16</td><td>Bitwise not</td><td><code>~</code> <em>value</em></td><td>left</td><td><code>~3</code></td></tr>
+<tr><td>16</td><td>Unary plus</td><td><code>+</code> <em>value</em></td><td>left</td><td><code>+5</code></td></tr>
+<tr><td>16</td><td>Negation</td><td><code>-</code> <em>value</em></td><td>left</td><td><code>-7</code></td></tr>
+<tr><td>15</td><td>Exponentiation</td><td><em>value</em> <code>**</code> <em>value</em></td><td>right</td><td><code>2 ** 3</code></td></tr>
+<tr><td>14</td><td>Multiplication</td><td><em>value</em> <code>*</code> <em>value</em></td><td>left</td><td><code>3 * 4</code></td></tr>
+<tr><td>14</td><td>Division</td><td><em>value</em> <code>/</code> <em>value</em></td><td>left</td><td><code>12 / 6</code></td></tr>
+<tr><td>14</td><td>Remainder</td><td><em>value</em> <code>%</code> <em>value</em></td><td>left</td><td><code>8 % 3</code></td></tr>
+<tr><td>13</td><td>Addition</td><td><em>value</em> <code>+</code> <em>value</em></td><td>left</td><td><code>2 + 3</code>, <code>'a' + 'b'</code></td></tr>
+<tr><td>13</td><td>Subtraction</td><td><em>value</em> <code>-</code> <em>value</em></td><td>left</td><td><code>9 - 7</code></td></tr>
+<tr><td>12</td><td>Bitwise left shift</td><td><em>value</em> <code>&lt;&lt;</code> <em>value</em></td><td>left</td><td><code>4 &lt;&lt; 1</code></td></tr>
+<tr><td>12</td><td>Bitwise right shift</td><td><em>value</em> <code>&gt;&gt;</code> <em>value</em></td><td>left</td><td><code>4 &gt;&gt; 1</code></td></tr>
+<tr><td>12</td><td>Bitwise unsigned right shift</td><td><em>value</em> <code>&gt;&gt;&gt;</code> <em>value</em></td><td>left</td><td><code>-3 &gt;&gt;&gt; 2</code></td></tr>
+<tr><td>11</td><td>Less than</td><td><em>value</em> <code>&lt;</code> <em>value</em></td><td>left</td><td><code>3 &lt; 4</code></td></tr>
+<tr><td>11</td><td>Less than or equal</td><td><em>value</em> <code>&lt;=</code> <em>value</em></td><td>left</td><td><code>5 &lt;= 4</code></td></tr>
+<tr><td>11</td><td>Greater than</td><td><em>value</em> <code>&gt;</code> <em>value</em></td><td>left</td><td><code>6 &gt; 2</code></td></tr>
+<tr><td>11</td><td>Greater than or equal</td><td><em>value</em> <code>&gt;=</code> <em>value</em></td><td>left</td><td><code>7 &gt;= 1</code></td></tr>
 </tbody>
 </table>
 </span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="strings.html">← JavaScript Strings</a></div></div></div></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/" class="nav-home"><img src="/img/U_609x582.png" alt="UDocs" height="58"/></a><div><h5>About Us</h5><a href="https://www.ucode.com">UCode</a></div></section><a href="https://www.algolia.com" class="fbOpenSource"><img src="https://www.algolia.com/static_assets/images/press/downloads/search-by-algolia.svg" width="150"/></a></footer></div><script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script><script>
