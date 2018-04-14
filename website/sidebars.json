@@ -2,6 +2,11 @@
   "docs": {
     "HTML": ["intro_html"],
     "CSS": ["intro_css"],
-    "JavaScript": ["intro_js", "strings", "order_of_operations"]
+    "JavaScript":
+      [ "intro_js"
+      , "strings"
+      , "order_of_operations"
+      , "number_object"
+      ]
   }
 }

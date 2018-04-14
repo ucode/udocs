@@ -22,9 +22,9 @@ const siteConfig = {
   baseUrl: '/' /* base url for your project */,
   projectName: 'udocs',
   headerLinks: [
-    {html: 'intro_html', label: 'HTML'},
-    {css: 'intro_css', label: 'CSS'},
-    {js: 'intro_js', label: 'JavaScript'},
+    {doc: 'intro_html', label: 'HTML'},
+    {doc: 'intro_css', label: 'CSS'},
+    {doc: 'intro_js', label: 'JavaScript'},
     //{doc: 'doc4', label: 'API'},
     //{page: 'help', label: 'Help'},
     //{blog: true, label: 'Blog'},
@@ -51,12 +51,12 @@ const siteConfig = {
     // Highlight.js theme to use for syntax highlighting in code blocks
     theme: 'default',
   },
-  scripts: ['https://buttons.github.io/buttons.js'],
+  scripts: ['https://buttons.github.io/buttons.js', 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML'],
   // You may provide arbitrary config keys to be used as needed by your template.
   repoUrl: 'https://github.com/ucode/udocs',
   algolia: {
     apiKey:
-      "8b995a1eabb0b381c55ea827ed595813",
+      "95efd4c826ff3541b671413a01a2c2df",
     indexName: "udocs"
   },
 };
