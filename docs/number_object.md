@@ -25,5 +25,5 @@ Function | Definition | Example
 `Number.isFinite(`*number*`)` | Checks if argument is not `Infinity` or `-Infinity` | `Number.isFinite(5)`
 `Number.isInteger(`*number*`)` | Checks if argument is an integer | `Number.isInteger(3)`
 `Number.isSafeInteger(`*number*`)` | Checks if argument is a safe integer | `Number.isSafeInteger(2 ** 53 - 1)`
-`Number.parseFloat(`*number*`)` | Same as `parseFloat` | `Number.parseFloat('1.2')`
-`Number.parseInt(`*number*`)` | Same as `parseInt` | `Number.parseInt('2')`
+`Number.parseFloat(`*number*`)` | Same as `parseFloat` | `Number.parseFloat('1.2') == 1.2`
+`Number.parseInt(`*number*`)` | Same as `parseInt` | `Number.parseInt('1.2') == 1`
