@@ -54,5 +54,5 @@ Function | Definition | Example
 `Math.sinh(`*x*`)` | Hyperbolic sine: \\(\frac{e^x - e^{-x}}2\\) | `Math.sinh(0) == 0`
 `Math.sqrt(`*x*`)` | \\(\sqrt{x}\\) | `Math.sqrt(16) == 4`
 `Math.tan(`*\\(\theta\\)*`)` | \\(\tan{\theta}\\) | `Math.tan(Math.PI / 2) == 0`
-`Math.tanh(`*x*`)` | Hyperbolic tangent: \\(\frac{\sinh x}{\cosh x}\\) | `Math.tanh(0) == 0`
+`Math.tanh(`*x*`)` | Hyperbolic tangent: \\(\frac{\sinh x}{\cosh x}\\) or \\(\frac{e^x - e^{-x}}{e^x + e^{-x}}\\) | `Math.tanh(0) == 0`
 `Math.trunc(`*number*`)` | *Only* the number to the left of the decimal | `Math.trunc(12.34) == 12`
