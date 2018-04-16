@@ -34,9 +34,9 @@ Level | Operator | Syntax | Associativity | Examples
 10 | Strict inequality | *value* `!==` *value* | left | `8 !== '8'`, `'4' !== 4`
 9 | Bitwise and | *value* `&` *value* | left | `5 & 4 == 4`
 8 | Bitwise xor | *value* `^` *value* | left | `6 ^ 3 == 5`
-7 | Bitwise or | *value* &#124; *value* | left | `2`&nbsp;&#124;&nbsp;`1 == 3`
+7 | Bitwise or | *value* <code>&#124;</code> *value* | left | <code>2 &#124; 1 == 3</code>
 6 | Logical and | *value* `&&` *value* | left | `true && true`
-5 | Logical or | *value* &#124;&#124; *value* | left | `true`&nbsp;&#124;&#124;&nbsp;`false`
+5 | Logical or | *value* <code>&#124;&#124;</code> *value* | left | <code>true &#124;&#124; false</code>
 4 | Conditional | *condition* `?` *value* `:` *value* | right | `(true ? 1 : 2) == 1`
 3 | Assignment | *name* `=` *value* | right | `(gold = 5) == 5`
 1 | Comma | *value* `,` *value* | left | `(5 + 6, 3 + 4) == 7`
