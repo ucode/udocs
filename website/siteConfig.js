@@ -10,7 +10,7 @@ const users = [
   {
     caption: 'UCode',
     image: '/test-site/img/docusaurus.svg',
-    infoLink: 'https://www.ucode.com',
+    infoLink: 'https://ucode.com',
     pinned: true,
   },
 ];
@@ -18,7 +18,7 @@ const users = [
 const siteConfig = {
   title: 'UDocs' /* title for your website */,
   tagline: 'Web development documentation for kids & adults',
-  url: 'https://www.udocs.com' /* your website url */,
+  url: 'https://udocs.com' /* your website url */,
   baseUrl: '/' /* base url for your project */,
   projectName: 'udocs',
   headerLinks: [

@@ -34,7 +34,7 @@ class Footer extends React.Component {
           </a>
           <div>
             <h5>About Us</h5>
-            <a href="https://www.ucode.com">
+            <a href="https://ucode.com">
               UCode
             </a>
           </div>
