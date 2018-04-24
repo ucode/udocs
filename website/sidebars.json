@@ -1,7 +1,16 @@
 {
   "docs": {
-    "HTML": ["intro_html"],
-    "CSS": ["intro_css"],
+    "HTML": 
+      [ "intro_html"
+      , "elements_grouped_html"
+      , "tables_html"
+      , "forms_html"
+      , "elements_html"
+      ],
+    "CSS":
+      [ "intro_css"
+      , "animation_property"
+      ],
     "JavaScript":
       [ "intro_js"
       , "strings"
