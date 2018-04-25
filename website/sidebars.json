@@ -8,6 +8,7 @@
       , "order_of_operations"
       , "number_object"
       , "math_object"
+      , "string_object"
       ]
   }
 }
