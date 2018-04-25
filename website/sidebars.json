@@ -1,17 +1,16 @@
-{
-  "docs": {
-    "HTML": 
+{ "docs":
+  { "HTML": 
       [ "intro_html"
       , "elements_grouped_html"
       , "tables_html"
       , "forms_html"
       , "elements_html"
-      ],
-    "CSS":
+      ]
+  , "CSS":
       [ "intro_css"
       , "animation_property"
-      ],
-    "JavaScript":
+      ]
+  , "JavaScript":
       [ "intro_js"
       , "strings"
       , "order_of_operations"
