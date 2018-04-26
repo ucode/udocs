@@ -51,6 +51,8 @@ Method | Definition | Example
 *string*`.startsWith(`*search*`, `*startPosition`)` | Determines if *string* starting at *startPosition* starts with *search* | `'UDocs'.startsWith('cs', 3)`
 *string*`.substr(`*start*`)` | *String* from index *start*, or index *start* `+` *string*`.length` if *start* is negative | `'UDocs'.substr(-2) == 'cs'`
 *string*`.substr(`*start*`, `*length*`)` | *String* from index *start*, or index *start*`+`*string*`.length` if *start* is negative **to** *length* characters | `'UDocs'.substr(1, 3) == 'Doc'`
+*string*`.substring(`*start*`)` | *String* from index *start* | `'UDocs'.substring(3) == 'cs'`
+*string*`.substring(`*start*`, `*end*`)` | *String* between index *start* and *end*, not including *end* | `'UDocs'.substring(1, 4) == 'Doc'`
 *string*`.toLocaleLowerCase(`*locale*`)` | Lowercase *string* in *locale* | `'UΔocs'.toLocaleLowerCase('el') == 'uδocs'`
 *string*`.toLocaleUpperCase(`*locale*`)` | Uppercase *string* in *locale* | `'Uδocs'.toLocaleUpperCase('el') == 'UΔOCS'`
 *string*`.toLowerCase()` | Lowercase *string* | `'UDocs'.toLowerCase() == 'udocs'`
