@@ -9,7 +9,7 @@
 const users = [
   {
     caption: 'UCode',
-    image: '/test-site/img/docusaurus.svg',
+    image: 'img/U_609x582.png',
     infoLink: 'https://ucode.com',
     pinned: true,
   },
@@ -59,6 +59,7 @@ const siteConfig = {
       "95efd4c826ff3541b671413a01a2c2df",
     indexName: "udocs"
   },
+  gaTrackingId: 'UA-118253391-1',
 };
 
 module.exports = siteConfig;
