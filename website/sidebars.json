@@ -1,5 +1,5 @@
 { "docs":
-  { "HTML": 
+  { "HTML":
       [ "intro_html"
       , "elements_grouped_html"
       , "tables_html"
@@ -17,6 +17,7 @@
       , "number_object"
       , "math_object"
       , "string_object"
+      , "operators"
       ]
   }
 }

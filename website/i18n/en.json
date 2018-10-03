@@ -4,33 +4,74 @@
     "next": "Next",
     "previous": "Previous",
     "tagline": "Web development documentation for kids & adults",
-    "animation_property": "CSS Animation Property",
-    "Animation Property": "Animation Property",
-    "elements_grouped_html": "Structure of an HTML Document",
-    "Structure of an HTML Document": "Structure of an HTML Document",
-    "elements_html": "HTML Elements and Tags",
-    "HTML Elements & Tags Reference List": "HTML Elements & Tags Reference List",
-    "forms_html": "HTML Forms",
-    "HTML Form Structure": "HTML Form Structure",
-    "intro_css": "CSS Introduction",
-    "Intro": "Intro",
-    "intro_html": "HTML Introduction",
-    "intro_js": "JavaScript Introduction",
-    "math_object": "JavaScript Math Object",
-    "Math Object": "Math Object",
-    "number_object": "JavaScript Number Object",
-    "Number Object": "Number Object",
-    "order_of_operations": "JavaScript Order of Operations",
-    "Order of Operations": "Order of Operations",
-    "string_object": "JavaScript String Object",
-    "String Object": "String Object",
-    "strings": "JavaScript Strings",
-    "Strings": "Strings",
-    "tables_html": "HTML Tables",
-    "HTML Tables": "HTML Tables",
-    "HTML": "HTML",
-    "CSS": "CSS",
-    "JavaScript": "JavaScript"
+    "docs": {
+      "animation_property": {
+        "title": "CSS Animation Property",
+        "sidebar_label": "Animation Property"
+      },
+      "elements_grouped_html": {
+        "title": "Structure of an HTML Document",
+        "sidebar_label": "Structure of an HTML Document"
+      },
+      "elements_html": {
+        "title": "HTML Elements and Tags",
+        "sidebar_label": "HTML Elements & Tags Reference List"
+      },
+      "forms_html": {
+        "title": "HTML Forms",
+        "sidebar_label": "HTML Form Structure"
+      },
+      "intro_css": {
+        "title": "CSS Introduction",
+        "sidebar_label": "Intro"
+      },
+      "intro_html": {
+        "title": "HTML Introduction",
+        "sidebar_label": "Intro"
+      },
+      "intro_js": {
+        "title": "JavaScript Introduction",
+        "sidebar_label": "Intro"
+      },
+      "math_object": {
+        "title": "JavaScript Math Object",
+        "sidebar_label": "Math Object"
+      },
+      "number_object": {
+        "title": "JavaScript Number Object",
+        "sidebar_label": "Number Object"
+      },
+      "operators": {
+        "title": "JavaScript Operators",
+        "sidebar_label": "Operators"
+      },
+      "order_of_operations": {
+        "title": "JavaScript Order of Operations",
+        "sidebar_label": "Order of Operations"
+      },
+      "string_object": {
+        "title": "JavaScript String Object",
+        "sidebar_label": "String Object"
+      },
+      "strings": {
+        "title": "JavaScript Strings",
+        "sidebar_label": "Strings"
+      },
+      "tables_html": {
+        "title": "HTML Tables",
+        "sidebar_label": "HTML Tables"
+      }
+    },
+    "links": {
+      "HTML": "HTML",
+      "CSS": "CSS",
+      "JavaScript": "JavaScript"
+    },
+    "categories": {
+      "HTML": "HTML",
+      "CSS": "CSS",
+      "JavaScript": "JavaScript"
+    }
   },
   "pages-strings": {
     "Help Translate|recruit community translators for your project": "Help Translate",
