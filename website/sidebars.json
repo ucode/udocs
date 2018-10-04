@@ -17,6 +17,7 @@
       , "number_object"
       , "math_object"
       , "string_object"
+      , "element_object"
       ]
   }
 }
