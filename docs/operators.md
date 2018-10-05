@@ -4,7 +4,7 @@ title: JavaScript Operators
 sidebar_label: Operators
 ---
 
-Operators are symbols that tell the compiler to perform specific mathematical or logical operations:
+Operators are symbols that perform specific mathematical or logical operations on values:
 ```javascript
 11 + 34
 17 == 17
@@ -33,10 +33,10 @@ The following are relational operators :
 
 | Operator | Name | Definition | Example |
 |------|---------|-------------|---------|
-| `<`  | Strict inequality operator | Checks wether an operand is less than another operand and returns a *boolean* based on the comparison.| `12 < 432` |
-| `>`  | Strict inequality operator | Checks wether an operand is greater than another operand and returns a *boolean* based on the comparison. | `1223 > 312 ` |
-| `<=` | Non-strict inequality operator | Checks wether an operands is less than or equal to another operand and returns a *boolean* based on the comparison. | `23 <= 2312` |
-| `>=` | Non-strict inequality operator| Checks wether an operand is greater than or equal to another operand and returns a *boolean* based on the comparison. | `3432 >= 3432` |
+| `<`  | Strict inequality operator | Checks wether an operand is *less* than another operand and returns a *boolean* based on the comparison.| `12 < 432`
+| `>`  | Strict inequality operator | Checks wether an operand is *greater* than another operand and returns a *boolean* based on the comparison. | `1223 > 312 `
+| `<=` | Non-strict inequality operator | Checks wether an operands is *less* than or *equal* to another operand and returns a *boolean* based on the comparison. | `23 <= 2312`
+| `>=` | Non-strict inequality operator| Checks wether an operand is *greater* than or *equal* to another operand and returns a *boolean* based on the comparison. | `3432 >= 3432`
 
 ### Equality operators
 
