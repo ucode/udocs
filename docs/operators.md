@@ -27,7 +27,7 @@ The following are arithmetic operators:
 
 ### Relational operators
 
-A comparison operator compares *two operands* and returns a *Boolean* value based on whether the comparison is true.
+A comparison operator compares *two operands* and returns a *Boolean* value based on the comparison.
 
 The following are relational operators :
 
@@ -61,10 +61,10 @@ The following are unary operators:
 |----------|------|------------|---------|
 | `!` | Logical NOT operator | Returns the opposite of it's operand. | `! true` |
 | `delete` | Delete operator | Deletes a property from an object. | `delete object.property` |
-| `void` | Void operator | Discards an expression's return value. | `void toString('9')` |
-| `typeof` | Typeof operator | Determines the type of a given object. | `typeof "This is a string?"` |
-| `+` | Unary plus operator | converts a value to the Number type. | `+'32423'` |
-| `-` | Unary negation operator | Converts a value to the number Type then discards it. | `-true` |
+| `void` | Void operator | Discards the value an operand returns. | `void toString('9')` |
+| `typeof` | Typeof operator | Returns the type of an operand. | `typeof "This is a string?"` |
+| `+` | Unary plus operator | Converts an operand to the *Number* type. | `+'32423'` |
+| `-` | Unary negation operator | Converts an operand to the *Number* Type then discards it. | `-true` |
 
 ### Increment and decrement operators
 Postfix/prefix increment and postfix/prefix decrement operators:
@@ -95,7 +95,7 @@ The following are binary logical operators:
 | Operator | Name | Definition | Example |
 |----------|------|------------|---------|
 | `&&` | Logical AND operator | Checks if *both* operands are *true* and returns a *boolean* based on the comparison. | `if (True && True) then` |
-| <code>&#124;&#124;</code> | Logical OR operator | Checks if *one of* the operands are *true* and returns a *boolean* based on the comparison. | <code>if (True &#124;&#124; False) then</code>
+| <code>&#124;&#124;</code> | Logical OR operator | Checks if *at least one* of the operands are *true* and returns a *boolean* based on the comparison. | <code>if (True &#124;&#124; False) then</code>
 
 ### Assignment operators
 
@@ -105,16 +105,16 @@ The following are assignment operators:
 
 | Operator | Name | Definition | Example |
 |----------|------|------------|---------|
-| `=` | Assignment operator | Assigns the value of the left operand based on the value of the right operand. | `var fruit = "apple"` |
-| `*=` | Multiplication assignment operator | Returns a value equal to the first operand multiplied by the second operand. | `17 *= 3` |
-| `/=` | Division assignment operator | Returns a value equal to the first operand divided by the second operand. | `32 /= 4` |
-| `%=` | Remainder assignment operator | Returns a value equal to the remainder of the first operand divided by the second operand. | `34 %= 18` |
-| `+=` | Addition assignment operator | Returns a value equal to the first operand added to the second operand. | `432 += 3242` |
-| `-=` | Subtraction assignment operator | Returns a value equal to the second operand subtracted from the first operand.  | `432432 -= 25243` |
-| `<<=` | Left shift assignment operator | Moves the specified amount of bits to the left and assigns the result to the variable | `x <<= y` |
-| `>>=` | Right shift assignment operator | Moves the specified amount of bits to the right and assigns the result to the variable. | `x >>= y` |
-| `>>>=` | Unsigned right shift assignment operator | Moves the specified amount of bits to the right and assigns the result to the variable.  | `x >>>= y` |
-| `,` | Comma operator | Lets you include multiple expressions in a case that only requires a single expression. | `x = (x++, x)` |
+| `=` | Assignment operator | Sets the left operand to the value of the right operand. | `const fruit = "apple"` |
+| `*=` | Multiplication assignment operator | Returns the value of the first operand multiplied by the second operand. | `17 *= 3` |
+| `/=` | Division assignment operator | Returns the value of the first operand divided by the second operand. | `32 /= 4` |
+| `%=` | Remainder assignment operator | Returns the value of the remainder of the first operand divided by the second operand. | `34 %= 18` |
+| `+=` | Addition assignment operator | Returns the value the first operand added to the second operand. | `432 += 3242` |
+| `-=` | Subtraction assignment operator | Returns the value of the second operand subtracted from the first operand.  | `432432 -= 25243` |
+| `<<=` | Left shift assignment operator | Moves the given amount of bits to the left and sets the variable to the result. | `x <<= y` |
+| `>>=` | Right shift assignment operator | Moves the given amount of bits to the right and sets the variable to the result. | `x >>= y` |
+| `>>>=` | Unsigned right shift assignment operator | Moves the specified amount of bits to the right and sets the variable the result.  | `x >>>= y` |
+| `,` | Comma operator | Lets you include multiple values where you only need one. | `x = (x++, x)` |
 
 ### Conditional (Ternary) operator
 | Operator | Name | Definition | Example |
