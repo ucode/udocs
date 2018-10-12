@@ -44,11 +44,7 @@ _element_`.getAttributeNS()` | Retrieves the value of the attribute with the spe
 _element_`.getAttributeNode()` | Retrieves the node representation of the named attribute and returns it as an Attribute. |
 _element_`.getAttributeNodeNS()` | Retrieves the node representation of the attribute with the specified name and namespace, and returns it as an Attribute.
 _element_`.getBoundingClientRect()` | Returns the size and position of an element relative to the viewport |
-<<<<<<< HEAD
-_element_`.getClientRects()` | // | 
-=======
-_element_`.getClientRects()` | // |   
->>>>>>> 437385957b0aa7099d23e30555d7bfd9d77a50d2
+_element_`.getClientRects()` | // |
 _element_`.getElementsByClassName()` | Returns all descendants of an element, that contain the given class names |  
 _element_`.getElementsByTagName()` | Returns all descendants of an element, that contain a given tag name |
 _element_`.getElementsByTagNameNS()` | Returns all descendants of an element, that contain a given tag name and namespace |
